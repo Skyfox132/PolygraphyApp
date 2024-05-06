@@ -13,14 +13,19 @@ const data = {
   rollsize: 160,
 }
 const materialsList = [ "OracalMat", "BanerLituy", "BanerLaminovaniy", "OracalTransparent",
-"OracalSilverBack", "SityLight",]
+"OracalGreyBack", "CityLight",]
 
 function App() {
+  const handleMaterial = (material:string)=> {
 
+    
+    data.material = material
+    console.log(material, data.material);
+  }
 
   return (
     <>
-    <Materials matList={ materialsList }/>
+    <Materials matList={ materialsList } handleMaterial = {handleMaterial}/>
     <FormData>
 
     </FormData>
