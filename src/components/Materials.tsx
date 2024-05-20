@@ -1,5 +1,5 @@
 
-import React, { ChangeEvent, ReactNode, useState } from 'react'
+import { ChangeEvent, ReactNode, useState } from 'react'
 
 type materialList = {
     matList: string[],

@@ -48,7 +48,7 @@ export default function FormData():JSX.Element {
         <form>
             <input type="number" value={sizes.width} placeholder="width" onChange={ handleChangeSize }/>
             <input type="number" value={sizes.height} placeholder="height" onChange={ handleChangeSize }/>
-            {sizes.width} {sizes.height}
+
         </form>
 
     </>

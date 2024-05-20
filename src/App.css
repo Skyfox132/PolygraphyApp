@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -61,4 +62,20 @@ input {
 td {
   border: 1px solid black;
   padding: 5px;
+}
+
+.button-create {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #4d51d3;
+  width: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+}
+.button-create:hover {
+  cursor: pointer;
+  background-color: #4d51d3;
+
 }
